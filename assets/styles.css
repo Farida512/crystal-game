@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.head1{
+    height: 100px;
+    background-color: rgb(18, 29, 25);
+}
+.head1>h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 32px;
+    font-weight: bolder;
+}
+.head2{
+    background-color: rgb(234, 240, 238);
+    padding: 50px;
+    font-size: larger;
+    padding: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.head3{
+    font-weight: bolder ;
+    padding: 10px;
+}
+.target{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(192, 201, 201);
+}
+.kristal>img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2em;
+    padding: 10px;
+}
+.kristal{
+    background-color: aliceblue;
+}
+.win{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(192, 201, 201);
+}
+.win>h2{
+    padding: 20px;
+
+}
