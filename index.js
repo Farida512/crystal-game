@@ -3,6 +3,7 @@ let score = 0;
 let  wins = 0;
 let loss = 0;
 document.querySelector('#hedef').innerHTML = target ; 
+var yourScore = document.querySelector('#score');
 
 function again(){
     score = 0;
@@ -12,6 +13,7 @@ $('.A').on('click',function() {
     const deyer = parseInt(this.dataset.deyer);
     score += deyer ; 
     if(score === target){
+
         alert('Qalib olduq');
         wins ++;
         $('#wins').text(wins);
@@ -22,7 +24,8 @@ $('.A').on('click',function() {
         $('#loss').text(loss);
         again();
     }else {
-        alert("yeni deyer : " + score);
+        yourScore.innerHTML= score;
+        //alert("yeni deyer : " + score);
     }
 });
 // win count
